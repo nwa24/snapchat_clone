@@ -196,7 +196,7 @@ public class listFragment extends Fragment {
 
             }
         };
-        mUserRef.orderByKey().addValueEventListener(userID);
+        mUserRef.addValueEventListener(userID);
 
 
         // setting up the array adapter for the list view
